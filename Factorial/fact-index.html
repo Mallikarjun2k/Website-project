@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Factorial Calculator</title>
+  <link rel="icon" href="props\calculator.png" type="image/x-icon">
+  <link rel="stylesheet" href="css\fact-index.css">
+  <link rel="stylesheet" href="..\css\index.css">
+  <script src="scripts\fact-index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="..\index.js"></script>
+</head>
+
+<body>
+  
+  <div class="heading">
+      <p><span>R</span>apid<span>t</span>ables</p>
+  </div>
+
+  <div id="nav">
+    
+    <a href="..\index.html">Home</a> ›
+    Factorial calculator
+    <img src="props\moon.png" id="icon" onclick="darkmode()">
+       
+  </div>
+
+  <div class="def">
+      <p id="fact">
+        Factorial (n!)
+      </p>
+      <p>
+        Factorial is the product of an integer and all the  integers below it upto 1.
+      </p>
+  </div><br>
+
+  <div class="display-box">
+      <input class="input-box1" type="number" id="input-num" placeholder="Enter a number" />
+
+      <input type="text" id="result" class="input-box1"  disabled> <br>
+
+      <input id="clr" type="button" value="Clear" onclick="clearScreen()" class="clr-btn">
+
+      <input type="button" value="Get Factorial" onclick="factorial()" class="calc-btn"><br>
+
+      <label id="calc-lable" name="Calc">Calculation: </label><br>
+      <textarea class="input-box1" id="calc-text" disabled></textarea>
+  </div><br>
+
+  <div class="formula">
+    <p>Factorial formula :</p>
+    <img src="props\factorial form.svg" alt=" ">
+  </div>
+
+  <div class="more">
+    <h3>For more details about Factorial..</h3>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Factorial">Wikipedia</a></li>
+      <li><a href="https://www.youtube.com/watch?v=pxh__ugRKz8">Youtube</a></li>
+      <li><a href="https://mathworld.wolfram.com/Factorial.html">MathWorld</a></li>
+    </ul>
+  </div>
+
+  <div id="footer">
+    <a href="#">Home</a> |
+    <a href="#">Image</a> |
+    <a href="#">Calculators</a> 
+    <p>©
+    <a href="https://www.newwaveindia.io/" target="_blank">newwaveindia.com</a> |
+    <a href="https://www.linkedin.com/in/mallikarjuna-p-307368200/" target="_blank" >About</a> |
+    <a href="https://www.linkedin.com/in/mallikarjuna-p-307368200/" target="_blank">Contact</a>
+    </p>
+  </div>
+
+</body>
+</html>

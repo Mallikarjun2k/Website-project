@@ -1,0 +1,139 @@
+
+
+#nav{
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+#nav a{
+  padding: 7px;
+  color: var(--secondary-color);
+  outline: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#nav a:hover{
+  color: blue;
+}
+
+
+.def{
+  width: fit-content;
+  color: var(--secondary-color);
+  padding: 10px;
+  line-height: 2;
+  position: relative;
+}
+#fact{
+  font-size: 2.5rem;
+}
+.def p{
+ font-size: 1.4rem;
+}
+
+.display-box{
+  width: fit-content;
+  padding: 20px;
+  margin: 0 auto;
+  color: var(--secondary-color);
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #171717;
+  
+}
+.input-box1{
+  padding: 2px 2px;
+  width: 250px;
+  font-size: 1.8em;
+  border: 0.5px solid #171717;
+  border-radius: 2px;
+  font-weight: 500;
+  color: #171717;
+  height: 30px;
+}
+.clr-btn{
+  width: 20%;
+  font-size: larger; 
+  margin: 10px;
+  background-color: #fd3b00;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #171717;
+  border: 0px;
+  font-weight: bold;
+  padding: 7px;
+}
+.calc-btn{
+  width: 40%;
+  font-size: larger;
+  position: relative;
+  float: right;
+  margin: 10px;
+  padding: 7px;
+  background-color: rgb(50, 251, 0);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #171717;
+  border: 0px;
+  font-weight: bold;
+}
+#calc-text{
+  width: 100%;
+  height: 40%;
+  font-size: 2.2em;
+  color: #171717;
+  text-align: right;
+}
+#calc-lable{
+  font-size: 26px;
+  font-weight: 500;color: #171717;
+  
+}
+
+.formula{
+  font-size: 2.0rem;
+  color: var(--secondary-color);
+  padding: 20px;
+  font-weight: 400;
+}
+.formula img{
+  color: var(--secondary-color);
+  background-color: #fff;
+  padding: 20px 40px;
+
+}
+.more h3{
+  font-size: 1.6rem;
+  padding: 20px;
+  font-weight: 300;
+  color: var(--secondary-color);
+}
+.more ul{
+  padding-left: 50px;
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  padding-bottom: 10px;
+}
+#footer{
+padding: 5px;
+clear: both;
+text-align: center;
+border-top: 1px solid var(--secondary-color);
+font-size: 1.3rem;
+color: var(--secondary-color);
+line-height: 40px;
+}
+#footer a{
+  outline: none;
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 10px;
+}
+#footer a:hover{
+  color: rgb(24, 24, 251);
+}
+
+#footer p{
+  color: var(--secondary-color);
+}

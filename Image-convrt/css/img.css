@@ -1,0 +1,95 @@
+
+.imgcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#image1{
+  width: 50%;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  
+}
+
+#can{
+  width: 50%;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+}
+form{
+  background-color: rgb(0, 136, 255);
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  
+}
+#nav{
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+#nav a{
+  padding: 7px;
+  color: var(--secondary-color);
+  outline: none;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#nav a:hover{
+  color: blue;
+}
+
+#text{
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+td{
+  display: flex;
+  justify-content:space-around;
+}
+button{
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  text-transform: uppercase;
+  padding: 7px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 2px 2px 10px rgb(52, 51, 51);
+  cursor: pointer;
+
+}
+
+#footer{
+  
+  padding: 5px;
+  clear: both;
+  text-align: center;
+  border-top: 1px solid rgb(2, 2, 2);
+  font-size: 1.3rem;
+  line-height: 40px;
+  }
+#footer a{
+  outline: none;
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 10px;
+  }
+#footer a:hover{
+  color: rgb(40, 40, 247);
+}
+
+#footer p{
+  color: var(--secondary-color);
+}

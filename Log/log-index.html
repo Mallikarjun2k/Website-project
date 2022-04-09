@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logarithm Calculator</title>
+  <link rel="stylesheet" href="css\log-index.css">
+  <script src="scripts\log-index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <script src="..\index.js"></script>
+  <link rel="stylesheet" href="..\css\index.css">
+</head>
+<body>
+  <div class="heading">
+    <p><span>R</span>apid<span>t</span>ables</p>
+  </div>
+
+  <div id="nav">
+    <a href="..\index.html">Home</a> ›
+     Logarithm calculator
+     <img src="..\moon.png" id="icon" onclick="darkmode()">
+  </div>
+
+  <div class="def">
+    <p id="log-title">
+      Logarithm
+    </p>
+    <p>
+      The exponent or power to which a base must be raised to yield a given number.
+    </p>
+  </div>
+
+  <div class="log-calc">
+    <div class="log-head"><p>Logarithm Calculator</p></div>
+    <div class="row1">
+      <div class="log">Logarithm of :</div>
+      <input type="number" id="log-inp" required>
+    </div>
+    <div class="row2">
+      <div class="base">With base of :</div>
+      <input type="number" id="base-inp" required>
+    </div>
+
+    <div class="btn"> 
+      <button id="clr-btn" onclick="clearScreen()">Clear</button>
+      <button id="calc-btn" onclick="logarithm()">Calculate</button></div>
+
+    <div class="row3">
+      <div class="result">Result :</div>
+      <textarea name="result" id="result-box" disabled></textarea>
+    </div>
+  </div>
+
+  <div class="log-formula">
+    <div class="log-form">Logarithm Formula :</div>
+    <div class="log-form-exp">A logarithmic function is an inverse of the exponential function. In essence, if a raised to power y gives x, then the logarithm of x with base a is equal to y. <br>In equations,</div><br>
+    <div class="formula">aʸ = x <span id="formula">is equivalent to</span> logₐ(x) = y</div>
+  </div>
+
+  <div id="footer">
+    <a href="#">Home</a> |
+    <a href="#">Image</a> |
+    <a href="#">Calculators</a> 
+    <p>©
+    <a href="https://www.newwaveindia.io/" target="_blank">newwaveindia.com</a> |
+    <a href="https://www.linkedin.com/in/mallikarjuna-p-307368200/" target="_blank" >About</a> |
+    <a href="https://www.linkedin.com/in/mallikarjuna-p-307368200/" target="_blank">Contact</a>
+    </p>
+  </div>
+  
+  
+</body>
+</html>

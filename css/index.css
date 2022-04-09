@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Caveat', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+:root{
+  --primary-color: #F7F5F2;
+  --secondary-color: #1A2849;
+}
+.dark-mode{
+  --primary-color: #1A2849;
+  --secondary-color: #F7F5F2;
+}
+.heading{
+  color: var(--secondary-color);
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  box-shadow: 1px 1px 5px black;
+}
+span{
+  font-weight: bolder;
+  color: rgb(254, 4, 4);
+}
+#icon{
+  width: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+}
+#icon:hover{
+  background-color: #fff;
+  border: 0;
+  border-radius: 50%;
+}
+.menu{
+  width: 80%;
+  position: relative;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.menu a{
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  background-color: rgb(23, 163, 245);
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px var(--secondary-color);
+}
+
+.well{
+  font-size: 50px;
+  font-weight: bolder;
+  position: relative;
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 30px;
+}
